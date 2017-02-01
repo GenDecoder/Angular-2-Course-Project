@@ -1,0 +1,19 @@
+.header {
+    width: 100%;    
+}
+.header .item {
+    width: 150px;
+    height: 70px;
+    cursor: pointer;
+    line-height: 70px;
+    text-align: center;
+    display: inline-block;
+    background: navajowhite;
+    border: solid 1px black;
+}
+
+.header .item.log-in, .header .item.log-out {
+    color: white;
+    font-weight: bold;
+    background: saddlebrown;
+}
